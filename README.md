@@ -27,6 +27,7 @@ To run all tests use:<br/>
 `npm test -- --watchAll`<br/>
 `npm test -- --coverage`<br/>
 
+Template is set up to run `npm run validate` which performs eslint, stylelint and unit tests on every commit and push via husky.
 
 ## Author
 Linas Ramanauskas - <a href="mailto:linas.ramanauskas.lt@gmail.com">linas.ramanauskas.lt@gmail.com</a>

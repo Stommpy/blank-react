@@ -10,9 +10,7 @@ module.exports = {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
     },
-    'import/resolver': {
-      typescript: {},
-    },
+    'import/resolver': "webpack",
   },
   rules: {
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
@@ -31,7 +29,7 @@ module.exports = {
       { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
     ],
     '@typescript-eslint/indent': [2, 2],
-    'linebreak-style': 0,
+    'linebreak-style': 0
   },
   overrides: [
     {
